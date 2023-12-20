@@ -13,13 +13,15 @@
             font-size: 20px;
         }
 
-        .up {
+        header {
             background: url(img/image1.jpg) center/cover no-repeat;
             color: aliceblue;
             padding: 5px;
         }
 
         .down {
+            display: flex;
+            justify-content: space-around;
             background: url(img/image4.jpg) center/cover no-repeat;
             padding: 50px 0;
         }
@@ -28,11 +30,12 @@
             text-align: right;
             padding-right: 30px;
             padding-top: 20px;
+            font-style: normal;
         }
 
         h2 {
             padding-top: 100px;
-            text-shadow: 3px -1px rgb(39, 37, 37);
+            text-shadow: 1px -2px 3px rgb(39, 37, 37), 2px -2px 3px white;
         }
 
         a {
@@ -43,9 +46,9 @@
 </head>
 
 <body class="decor">
-<hr>
-    <div class="up">
-        <p id="tel">+7-988-413-33-89</p>
+    <hr>
+    <header>
+       <p><address id="tel">+7-988-413-33-89</address></p>
 
         <h1>KAILĀSA</h1>
 
@@ -53,23 +56,25 @@
             <strong>Гармонизация</strong>
             <span style="margin-left: 150px;"><strong>Исцеление</strong></span>
         </h2>
-    </div>
+    </header>
     <hr>
 
-    <p>-25% на первый сеанс</p>
-    
+    <section>
+        <p>-25% на первый сеанс</p>
+    </section>
+
     <hr>
-    <div class="down">
-        <div style="padding-bottom: 20px;">
+
+    <section class="down">
+        <div>
             <a href="sound-therapy.html">
                 <article>Звукотерапия</article>
                 <section>Энерготерапия</section>
                 <article>Вибрационно-акустический массаж</article>
             </a>
         </div>
-        <hr>
 
-        <div style="padding-top: 20px;">
+        <div>
             <a href="litotherapy.html">
                 <strong>BHAKTI</strong>
                 <article>Литотерапия</article>
@@ -77,8 +82,7 @@
                 <article>Создание браслетов, Малы, Четок, Бус.</article>
             </a>
         </div>
-        
-    </div>
+    </section>
     <hr>
 </body>
 
