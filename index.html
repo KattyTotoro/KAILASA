@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KAILASA</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
         .decor {
             max-width: 1200px;
             margin: 0 auto;
@@ -14,16 +17,36 @@
         }
 
         header {
-            background: url(img/image1.jpg) center/cover no-repeat;
+            height: 600px;
+            background: url(img/bg1.jpg) top/cover no-repeat;
+            background-attachment: fixed;
             color: aliceblue;
+            text-shadow: 1px -2px 3px rgb(39, 37, 37), 2px -2px 3px white;
             padding: 5px;
         }
 
-        .down {
+        .h-flex {
             display: flex;
             justify-content: space-around;
-            background: url(img/image4.jpg) center/cover no-repeat;
-            padding: 50px 0;
+            padding-top: 150px;
+        }
+
+        .discount {
+            height: 150px;
+            padding-top: 50px;
+        }
+
+        .down {
+            height: 500px;
+            display: flex;
+            justify-content: space-around;
+            background: url(img/bg1.jpg) bottom/cover no-repeat;
+            background-attachment: fixed;
+            color: aliceblue;
+            text-shadow: 1px -2px 3px rgb(39, 37, 37), 2px -2px 3px white;
+            /* background: url(img/image4.jpg) center/cover no-repeat;
+            background-attachment: fixed; */
+            padding: 150px 0;
         }
 
         #tel {
@@ -33,14 +56,18 @@
             font-style: normal;
         }
 
+        h1 {
+            justify-items: top;
+        }
+
         h2 {
             padding-top: 100px;
-            text-shadow: 1px -2px 3px rgb(39, 37, 37), 2px -2px 3px white;
         }
 
         a {
             text-decoration: none;
-            color: black;
+            color: aliceblue;
+            text-shadow: 1px -2px 3px rgb(39, 37, 37), 2px -2px 3px white;
         }
 
         ul {
@@ -58,14 +85,15 @@
 
         <h1>KAILĀSA</h1>
 
-        <h2><span style="margin-right: 150px;"><strong>Очищение</strong></span>
-            <strong>Гармонизация</strong>
-            <span style="margin-left: 150px;"><strong>Исцеление</strong></span>
-        </h2>
+        <div class="h-flex">
+            <h2><strong>Очищение</strong></h2>
+            <h2> <strong>Гармонизация</strong></h2>
+            <h2> <strong>Исцеление</strong></h2>
+        </div>
     </header>
     <hr>
 
-    <section>
+    <section class="discount">
         <p>-25% на первый сеанс</p>
     </section>
 
