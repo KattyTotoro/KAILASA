@@ -8,23 +8,22 @@
 
   <style>
     .decor {
-      background-color: #71adea;
+      /* background-color: #71adea; */
+      background: url(img/bg-river.jpg) center/cover no-repeat;
+      background-attachment: fixed;
       margin: 0 auto
     }
 
     article {
       margin: 0;
       padding: 150px 0;
-      background-color: #71adea;
-      background: url(img/bg-river.jpg) center center no-repeat;
-      background-attachment: fixed;
-      background-size: 100% auto;
+      /* background-color: #71adea; */
       font-size: 26px;
     }
 
     header,
     footer {
-      max-width: 865px;
+      max-width: 80%;
       margin: auto;
       color: #fffdf3;
       text-shadow: 1px -2px 3px #1e1602, 2px -2px 3px #fffdf3;
@@ -44,10 +43,10 @@
     }
 
     .bg2 {
-      max-width: 70%;
+      /* max-width: 70%; */
       margin: 20px auto;
       background: url(img/flower-bg.jpg);
-      /* background-attachment: fixed; */
+      background-attachment: fixed;
       background-origin: border-box;
       text-shadow: 1px -2px 3px #fffdf3, 2px -2px 3px #fffdf3;
       border-radius: 10px;
@@ -86,12 +85,43 @@
     footer {
       color: #fffdf3;
       text-shadow: 1px -2px 3px #1e1602, 2px -2px 3px #fffdf3;
+      margin-top: 150px;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 30px;
+      padding-top: 10px;
+      padding-left: 50px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: aliceblue;
+      text-shadow: 1px -2px 3px rgb(39, 37, 37), 2px -2px 3px white;
+      box-shadow: -5px -5px 10px #7d7b66;
+      border-radius: 20px;
+      padding: 10px;
+      font-size: 26px;
+    }
+
+    .nav a:hover {
+      border-radius: 20px;
+      box-shadow: 5px 5px 10px #7d7b66;
     }
   </style>
 
 </head>
 
 <body class="decor">
+  <div class="nav">
+    <p><a href="index.html"><b>На главную</b></a></p>
+    <p><a href="sound-therapy.html"><strong>Звукотерапия</strong></a></p>
+  </div>
+
+  <hr>
 
   <article>
 
