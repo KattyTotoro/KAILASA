@@ -21,43 +21,49 @@
     article {
       margin: 0;
       padding: 150px 0;
-      /* background-color: #71adea; */
       font-size: 26px;
+      color: #fffdf3;
+      text-shadow: 1px -2px 3px #1e1602, 2px -2px 3px #fffdf3;
+      /* background-color: #71adea; */
     }
 
     header,
     footer {
       max-width: 80%;
       margin: auto;
-      text-align: justify;
-      /* color: #fffdf3;
-      text-shadow: 1px -2px 3px #1e1602, 2px -2px 3px #fffdf3; */
+      text-align: center;
+      font-size: 32px;
     }
 
     header,
-    footer, 
+    footer,
     .bg2 {
-      background-color: #6161615e;
-      border-radius: 20px;
       padding: 20px;
-      color: #fffdf3;
-      text-shadow: 1px -2px 3px #1e1602, 2px -2px 3px #fffdf3;
+    }
+
+    header {
+      display: flex;
+      align-items: baseline;
+      gap: 40px;
+    }
+
+    article p,
+    li {
+      max-width: fit-content;
+
+      background: #6161615e content-box;
+      border-radius: 20px;
     }
 
     img {
-      border-radius: 20px;
+      border-radius: 50%;
+      border: 15px double #fffdf3;
+      box-shadow: 2px -2px 3px #fffdf3, -2px 2px 3px #fffdf3, 0 0 8px #fffdf3;
     }
 
     .bg2 {
       margin: 20px auto;
-      
-      /* border-radius: 10px; */
       /* background-color: #6161615e; */
-      /* background-attachment: fixed; */
-      /* background-origin: border-box; */
-      /* text-shadow: 1px -2px 3px #fffdf3, 2px -2px 3px #fffdf3; */
-      /* max-width: 70%; */
-      /* background: url(img/flower-bg.jpg); */
     }
 
     .bg2 img {
@@ -94,7 +100,7 @@
       color: #fffdf3;
       text-shadow: 1px -2px 3px #1e1602, 2px -2px 3px #fffdf3;
       margin-top: 150px;
-      text-align: center;
+      
     }
 
     .nav {
@@ -141,14 +147,18 @@
 
     <header>
 
-      <img src="img/image22.jfif" width="300" style="float: right; margin-left: 20px;" alt="BHAKTI" title="BHAKTI">
-      <p style="padding-top: 50px;">
-        <strong>Индивидуальный подбор натуральных камней в Любви</strong> 💜 <br>
-      </p>
-      <p>
-        <strong>Создание инструментов (мала, чётки, бусы, лула, браслеты-помощники)
-          для духовного развития и гармонизации энергий Души и тела.</strong>
-      </p>
+      <div>
+        <p>
+          <strong>Индивидуальный подбор натуральных камней в Любви</strong> 💜 <br>
+        </p>
+        <p>
+          <strong>Создание инструментов (мала, чётки, бусы, лула, браслеты-помощники)
+            для духовного развития и гармонизации энергий Души и тела.</strong>
+        </p>
+      </div>
+
+      <img src="img/image22.jfif" width="400" alt="BHAKTI" title="BHAKTI">
+
     </header>
 
     <div class="bg2">
