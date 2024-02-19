@@ -13,15 +13,14 @@
 
     .decor {
       /* background-color: #71adea; */
-      max-width: 90%;
+      background: url(img/bg-river.jpg) center/cover no-repeat;
+      background-attachment: fixed;
       margin: 0 auto
     }
 
     article {
-      background: url(img/bg-river.jpg) center/cover no-repeat;
-      background-attachment: fixed;
       margin: 0;
-      /* padding: 150px 0; */
+      padding: 150px 0;
       font-size: 26px;
       color: #fffdf3;
       text-shadow: 1px -2px 3px #1e1602, 2px -2px 3px #fffdf3;
@@ -35,8 +34,6 @@
       gap: 150px;
       text-align: center;
       font-size: 32px;
-      margin-top: 150px;
-
     }
 
     img {
@@ -51,6 +48,7 @@
       align-items: center;
       gap: 50px;
       padding: 150px 0;
+      overflow: hidden;
       /* background-color: #6161615e; */
     }
 
@@ -60,7 +58,7 @@
       justify-content: flex-end;
       align-items: center;
       gap: 50px;
-      padding: 150px 0;
+      padding: 100px 0;
     }
 
     li::marker {
@@ -78,6 +76,10 @@
       text-align: center;
     }
 
+    footer {
+      margin-top: 150px;
+    }
+
     .text {
       max-width: 900px;
       background: #4c60548d content-box;
@@ -91,14 +93,17 @@
     }
 
     img {
-      transition: transform 1s;
+      opacity: 0.8;      
+      transition: transform 2s;
     }
 
     img:hover {
+      opacity: 1;
       transform: scale(1.3);
       transition: transform 1s;
     }
 
+    /* Навигация */
     .nav {
       display: flex;
       align-items: center;
@@ -132,14 +137,14 @@
 
   <hr>
 
+  <div class="nav">
+    <p><a href="index2.html"><b>На главную</b></a></p>
+    <p><a href="sound-therapy2.html"><strong>Звукотерапия</strong></a></p>
+  </div>
+
+  <hr>
+
   <article>
-    <!-- Навигация -->
-    <div class="nav">
-      <p><a href="index3.html"><b>На главную</b></a></p>
-      <p><a href="sound-therapy3.html"><strong>Звукотерапия</strong></a></p>
-    </div>
-  
-    <hr>
 
     <header>
 
@@ -175,78 +180,81 @@
         </div>
       </div>
 
-      <div>
-        <div><img src="img/lito/image26.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
+      <div style="display: flex; align-items: flex-start; justify-content: space-around; text-align: center;">
+        <div>
+          <div><img src="img/lito/image26.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
+          </div>
+
+          <div class="text">
+            <ul>
+              <li>Улучшить ментальное и физическое здоровье;</li>
+              <li>Сбалансировать мужские и женские энергии;</li>
+              <li>Преодолеть гнев, агрессию и другие разрушительные эмоции;</li>
+            </ul>
+          </div>
         </div>
 
-        <div class="text">
-          <ul>
-            <li>Улучшить ментальное и физическое здоровье;</li>
-            <li>Сбалансировать мужские и женские энергии;</li>
-            <li>Преодолеть гнев, агрессию и другие разрушительные эмоции;</li>
-          </ul>
-        </div>
-      </div>
+        <div>
+          <div><img src="img/lito/image25.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
+          </div>
 
-      <div>
-        <div><img src="img/lito/image25.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
-        </div>
-
-        <div class="text">
-          <ul>
-            <li>Проработать деструктивные программы;</li>
-            <li>Подсветить причинно-следственные связи кармы,<br>
-              способствовать духовному росту;</li>
-          </ul>
-        </div>
-      </div>
-
-      <div>
-        <div><img src="img/lito/image27.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
+          <div class="text">
+            <ul>
+              <li>Проработать деструктивные программы;</li>
+              <li>Подсветить причинно-следственные связи кармы,<br>
+                способствовать духовному росту;</li>
+            </ul>
+          </div>
         </div>
 
-        <div class="text">
-          <ul>
-            <li>Стабилизировать финансовый поток;</li>
-            <li>Содействовать в обучении, усвоении новой информации,<br>
-              развитии определённых навыков и умений;</li>
-          </ul>
-        </div>
-      </div>
+        <div>
+          <div><img src="img/lito/image27.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
+          </div>
 
-      <div>
-        <div><img src="img/lito/image28.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
-        </div>
-
-        <div class="text">
-          <ul>
-            <li>Гармонизировать отношения в семье, на работе, с миром;</li>
-            <li>Мягко развить благостные качества: терпение, смирение, веру,<br>
-              честность, самодисциплину.</li>
-          </ul>
+          <div class="text">
+            <ul>
+              <li>Стабилизировать финансовый поток;</li>
+              <li>Содействовать в обучении, усвоении новой информации,<br>
+                развитии определённых навыков и умений;</li>
+            </ul>
+          </div>
         </div>
       </div>
+      <div style="display: flex; align-items: flex-start; justify-content: space-around; text-align: center;">
+        <div>
+          <div><img src="img/lito/image28.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
+          </div>
 
-      <div>
-        <div><img src="img/lito/image29.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
+          <div class="text">
+            <ul>
+              <li>Гармонизировать отношения в семье, на работе, с миром;</li>
+              <li>Мягко развить благостные качества: терпение, смирение, веру,<br>
+                честность, самодисциплину.</li>
+            </ul>
+          </div>
         </div>
 
-        <div class="text">
-          <ul>
-            <li>Смягчить и раскрыть сердце, усилить чувствительности к тонким энергиям;</li>
-          </ul>
-        </div>
-      </div>
+        <div>
+          <div><img src="img/lito/image29.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
+          </div>
 
-      <div>
-        <div><img src="img/lito/image30.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
+          <div class="text">
+            <ul>
+              <li>Смягчить и раскрыть сердце, усилить чувствительности к тонким энергиям;</li>
+            </ul>
+          </div>
         </div>
 
-        <div class="text">
-          <ul>
-            <li>Выявить и раскрыть творческий потенциал, Божественные Дары,<br>
-              помочь в их освоении и применении;</li>
-          </ul>
+        <div>
+          <div><img src="img/lito/image30.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
+          </div>
+
+          <div class="text">
+            <ul>
+              <li>Выявить и раскрыть творческий потенциал, Божественные Дары,<br>
+                помочь в их освоении и применении;</li>
+            </ul>
+          </div>
         </div>
       </div>
     </main>
