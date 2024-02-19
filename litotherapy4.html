@@ -14,7 +14,7 @@
     .decor {
       /* background-color: #71adea; */
       max-width: 90%;
-      margin: 0 auto
+      margin: 0 auto;
     }
 
     article {
@@ -25,6 +25,8 @@
       font-size: 26px;
       color: #fffdf3;
       text-shadow: 1px -2px 3px #1e1602, 2px -2px 3px #fffdf3;
+      box-shadow: 0 0 50px rgb(119, 119, 119);
+
     }
 
     header,
@@ -44,11 +46,9 @@
       box-shadow: 2px -2px 3px #fffdf3, -2px 2px 3px #fffdf3, 0 0 8px #fffdf3;
     }
 
-    .white {
-      background: white; box-shadow: none; padding: 20px 0;
-    }
+   
 
-    main>div:not(.white) {
+   .div1 {
       display: flex;
       justify-content: flex-end;
       align-items: center;
@@ -57,8 +57,9 @@
       /* background-color: #6161615e; */
       box-shadow: 0 0 50px rgb(119, 119, 119);
     }
-
-    main>div:nth-child(even):not(.white) {
+    
+    
+    .div2 {
       display: flex;
       flex-direction: row-reverse;
       justify-content: flex-end;
@@ -67,6 +68,11 @@
       padding: 100px 0;
       box-shadow: 0 0 50px rgb(119, 119, 119);
     }
+
+    .white {
+      background: white; padding: 10px 0;
+    }
+    
 
     li::marker {
       content: "✅";
@@ -144,7 +150,7 @@
       <p><a href="index4.html"><b>На главную</b></a></p>
       <p><a href="sound-therapy4.html"><strong>Звукотерапия</strong></a></p>
     </div>
-
+    
     <hr>
 
     <header>
@@ -165,8 +171,10 @@
     </header>
 
     <main>
+      <div class="white">
+      </div>
 
-      <div>
+      <div class="div1">
         <div><img src="img/lito/image24.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
         </div>
 
@@ -182,10 +190,9 @@
       </div>
 
       <div class="white">
-        <hr>
       </div>
 
-      <div>
+      <div class="div2">
         <div><img src="img/lito/image26.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
         </div>
 
@@ -198,10 +205,10 @@
         </div>
       </div>
 
-      <div style="background: white; box-shadow: none; padding: 20px 0;">
+      <div class="white">
       </div>
 
-      <div>
+      <div class="div1">
         <div><img src="img/lito/image25.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
         </div>
 
@@ -214,10 +221,10 @@
         </div>
       </div>
 
-      <div style="background: white; box-shadow: none; padding: 20px 0;">
+      <div class="white">
       </div>
 
-      <div>
+      <div class="div2">
         <div><img src="img/lito/image27.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
         </div>
 
@@ -230,10 +237,10 @@
         </div>
       </div>
 
-      <div style="background: white; box-shadow: none; padding: 20px 0;">
+      <div class="white">
       </div>
 
-      <div>
+      <div class="div1">
         <div><img src="img/lito/image28.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
         </div>
 
@@ -246,10 +253,10 @@
         </div>
       </div>
 
-      <div style="background: white; box-shadow: none; padding: 20px 0;">
+      <div class="white">
       </div>
 
-      <div>
+      <div class="div2">
         <div><img src="img/lito/image29.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
         </div>
 
@@ -260,10 +267,10 @@
         </div>
       </div>
 
-      <div style="background: white; box-shadow: none; padding: 20px 0;">
+      <div class="white">
       </div>
 
-      <div>
+      <div class="div1">
         <div><img src="img/lito/image30.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
         </div>
 
@@ -275,7 +282,7 @@
         </div>
       </div>
 
-      <div style="background: white; box-shadow: none; padding: 20px 0;">
+      <div class="white">
       </div>
 
     </main>
@@ -299,9 +306,9 @@
       <div><img src="img/lito/image31.jpg" width="400" alt="Натуральные камни" title="Натуральные камни">
       </div>
     </footer>
-
+<hr>
   </article>
-
+<hr>
 </body>
 
 </html>
