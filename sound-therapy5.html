@@ -11,7 +11,7 @@
     }
 
     .decor {
-      background: url(img/image9.jpg) no-repeat center/cover;
+      background: url(img/sound/image_sound1.jpg) no-repeat 96% 96% fixed, url(img/image9.jpg) no-repeat center/cover;
       /* max-width: 850px;
       margin: 0 auto;
       font-size: 17px; */
@@ -19,7 +19,7 @@
 
     article {
       max-width: 850px;
-      margin: 0 auto;
+      margin-left: 50px;
       font-size: 17px;
     }
 
@@ -35,6 +35,24 @@
 
     footer {
       text-align: center;
+    }
+
+    section {
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+
+    section div {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 50px;
+      padding: 20px;
+      box-shadow: 0 0 50px rgb(119, 119, 119);
+    }
+
+    section img {
+      border-radius: 10px;
+      box-shadow: 0 0 50px rgb(119, 119, 119);
     }
 
     h1 {
@@ -59,8 +77,9 @@
 
     header,
     footer {
-     transition: 1s;
+      transition: 1s;
     }
+
     header:hover,
     footer:hover {
       background-color: rgba(247, 247, 241, 0.703);
@@ -190,6 +209,15 @@
 
   </article>
 
+  <section>
+    <hr>
+    <div>
+      <img src="img/sound/image_sound2.jpg" width="300" alt="sound-therapy">
+      <img src="img/sound/image_sound4.jpg" width="300" alt="sound-therapy">
+      <img src="img/sound/image_sound3.jpg" width="300" alt="sound-therapy">
+    </div>
+    <hr>
+  </section>
 
 </body>
 
